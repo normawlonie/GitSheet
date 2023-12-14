@@ -1,0 +1,41 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:active {
+    background-color: #3e8e41;
+}
+
+/* Стили для вывода данных в консоль */
+.console-log {
+    color: #FFFFFF;
+}
+
+.console-log-error {
+    color: #FF3D00;
+}
+
+.console-log-info {
+    color: #2196F3;
+}
